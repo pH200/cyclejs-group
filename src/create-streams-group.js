@@ -2,7 +2,7 @@
 
 import 'core-js/fn/object/entries';
 
-import { createStream } from 'cyclejs';
+import createStream from './stream';
 import mapValues from 'map-values';
 import mergeObjects from 'merge-object';
 import getParametersNames from 'get-parameter-names';
